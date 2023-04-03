@@ -1,0 +1,9 @@
+Prerequisites-
+Lua 5.x required.
+CXX compiler
+
+Instructions-----
+The following file use lua headers hence it advised to add -llua flag while compiling the C++ file.
+
+Example -
+g++ -o output file.cpp -llua
